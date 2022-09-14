@@ -1,6 +1,9 @@
 #sandra nitchi
 #TP1
 
-chaine = "The zen of Python boom"
-count_word = chaine.count(" ") + 1 #le nombre de mots est le nombre d'espaces + 1
-print(count_word) #l'ordi affiche le nombre de mots
+def count_word():
+    chaine = input("entrez une chaine de mots (ne mettez pas d'espace au debut)")
+    wordsNumber = chaine.count(" ") + 1
+    print("le nombre de mots dans cette chaine est:", wordsNumber)
+
+count_word()
