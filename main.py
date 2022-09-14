@@ -1,4 +1,4 @@
-#sandra nitchi, 405
+#sandra nitchi
 #TP1
 
 chaine = "The zen of Python boom"
